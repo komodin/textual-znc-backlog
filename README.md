@@ -9,8 +9,14 @@ Have [ZNC backlog](https://wiki.znc.in/Backlog) plugin installed on the server.
 
 Installing
 ------------
-* Download the `bl.py` to `~/Library/Application\ Scripts/com.codeux.apps.textual-mas/bl.py`
-* Give execution permissions to the script: `chmod +x ~/Library/Application\ Scripts/com.codeux.apps.textual-mas/bl.py`
+* Download the `bl.py` file. The location to save this file will depend on how you installed Textual:
+  * If you installed Textual from the Mac App Store, save the file to: `~/Library/Application\ Scripts/com.codeux.apps.textual-mas/bl.py`
+  * If you installed Textual by other means, save the file to: `~/Library/Application\ Scripts/com.codeux.apps.textual/bl.py`
+
+* Give execution permissions to the script. Again, the path will depend on your installation method:
+  * Mac App Store: `chmod +x ~/Library/Application\ Scripts/com.codeux.apps.textual-mas/bl.py`
+  * Other: chmod +x `~/Library/Application\ Scripts/com.codeux.apps.textual/bl.py`
+
 * The plugin will be executed when you run the command. It's not required to restart the client.
 
 Usage
