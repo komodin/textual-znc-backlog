@@ -15,7 +15,7 @@ Installing
 
 * Give execution permissions to the script. Again, the path will depend on your installation method:
   * Mac App Store: `chmod +x ~/Library/Application\ Scripts/com.codeux.apps.textual-mas/bl.py`
-  * Other: chmod +x `~/Library/Application\ Scripts/com.codeux.apps.textual/bl.py`
+  * Other: `chmod +x ~/Library/Application\ Scripts/com.codeux.apps.textual/bl.py`
 
 * The plugin will be executed when you run the command. It's not required to restart the client.
 
